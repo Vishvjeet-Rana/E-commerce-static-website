@@ -103,3 +103,14 @@ span {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+/* This is cart part */
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
