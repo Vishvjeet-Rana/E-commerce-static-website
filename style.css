@@ -5,9 +5,28 @@
 }
 
 .navbar {
-  height: 80px;
-  width: 99.5%;
+  height: 60px;
   margin: 7px 5px 0 5px;
-  background-color: grey;
-  border-radius: 15px;
+  background-color: #0f1111;
+  color: white;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("assets/amazon_logo.png");
+}
+
+.hover-border {
+  border: 2px solid transparent;
+}
+
+.hover-border:hover {
+  border: 2px solid white;
 }
