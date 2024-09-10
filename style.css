@@ -56,7 +56,7 @@
   background-color: pink;
   display: flex;
   justify-content: space-evenly;
-  width: 625px;
+  width: 700px;
   height: 45px;
   border-radius: 4px;
   margin-left: 30px;
@@ -113,4 +113,33 @@ span {
 .nav-cart {
   font-weight: 700;
   font-size: 0.85rem;
+}
+
+/* Panel starts form here */
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-options p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-options {
+  width: 70%;
+  font-size: 1rem;
+}
+
+.panel-deals {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.prime:hover {
+  border: 2px solid cornflowerblue;
 }
