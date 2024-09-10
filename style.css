@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+.navbar {
+  height: 80px;
+  width: 99.5%;
+  margin: 7px 5px 0 5px;
+  background-color: grey;
+  border-radius: 15px;
+}
