@@ -6,11 +6,13 @@
 
 .navbar {
   height: 60px;
-  margin: 7px 5px 0 5px;
   background-color: #0f1111;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
+/* Starting of box of Navbar */
 .nav-logo {
   height: 50px;
   width: 100px;
@@ -29,4 +31,21 @@
 
 .hover-border:hover {
   border: 2px solid white;
+}
+
+/* This is starting of second box of navbar */
+.add-first {
+  font-size: 0.85rem;
+  color: #cccccc;
+  margin-left: 15px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.location-icon {
+  display: flex;
+  align-items: center;
 }
