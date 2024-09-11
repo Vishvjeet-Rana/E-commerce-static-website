@@ -273,7 +273,7 @@ span {
 
 /* services section */
 .amazon-services {
-  height: 750px;
+  height: 600px;
   background-color: #1a2838;
   display: flex;
   justify-content: space-evenly;
@@ -295,4 +295,13 @@ span {
   font-size: 1.1rem;
   list-style-type: none;
   margin: 0px 0px 10px;
+}
+
+/* last section part */
+.last-section {
+  height: 80px;
+  background-color: #1a2838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
