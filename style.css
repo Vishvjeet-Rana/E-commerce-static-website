@@ -191,12 +191,11 @@ span {
 }
 
 .box:hover {
-  background-color: ghostwhite;
+  background-color: rgb(201, 201, 201);
 }
 
 .box-img {
   height: 300px;
-  background-repeat: no-repeat;
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
