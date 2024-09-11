@@ -172,3 +172,33 @@ span {
   color: #007185;
   text-decoration: none;
 }
+
+/* shop section starts here */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #cddde1;
+}
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px 0px 15px;
+}
+
+.box-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
