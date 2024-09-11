@@ -270,3 +270,29 @@ span {
   font-size: 1rem;
   font-weight: 500;
 }
+
+/* services section */
+.amazon-services {
+  height: 750px;
+  background-color: #1a2838;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services-box {
+  width: 290px;
+  height: 200px;
+  color: white;
+  margin-top: 50px;
+}
+
+.services-box h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.services-box li {
+  font-size: 1.3rem;
+  list-style-type: none;
+  margin: 0px 0px 10px;
+}
