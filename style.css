@@ -210,3 +210,50 @@ span {
 .see-more {
   color: #007185;
 }
+
+/* sign in footer part */
+.sign-button {
+  height: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-inner {
+  height: 68px;
+  padding: 0 20px;
+}
+
+.sign-title {
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-customer {
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-customer a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.sign-inner button {
+  height: 40px;
+  width: 250px;
+  background-color: orange;
+  color: black;
+  border: 2px solid goldenrod;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
