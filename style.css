@@ -178,16 +178,20 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #cddde1;
+  background-color: #e2e6e7;
 }
 
 .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 400px;
   width: 23%;
   background-color: white;
   margin-top: 20px;
   padding: 20px 0px 15px;
+}
+
+.box:hover {
+  background-color: ghostwhite;
 }
 
 .box-img {
@@ -201,4 +205,8 @@ span {
 .box-content {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.see-more {
+  color: #007185;
 }
