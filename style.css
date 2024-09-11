@@ -299,9 +299,48 @@ span {
 
 /* last section part */
 .last-section {
-  height: 80px;
+  height: 100px;
   background-color: #1a2838;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 0.1px solid #dddddd;
+}
+
+.last-section-inner {
+  height: 68px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.the-logo {
+  height: 100%;
+  width: 130px;
+  background-image: url("assets/amazon_logo.png");
+  background-size: cover;
+}
+
+.sec-box-inner {
+  height: 40px;
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.innerest-boxes {
+  height: 33px;
+  width: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid white;
+  padding: 0px 10px 0px 10px;
+  color: white;
+}
+
+.innerest-boxes i {
+  padding: 0px 3px 0px 3px;
 }
